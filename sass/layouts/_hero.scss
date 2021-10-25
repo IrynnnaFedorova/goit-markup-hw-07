@@ -1,11 +1,11 @@
-.bgcolorheader {
+.hero-bgcolorheader {
   background-color: $dark-bgc;
   padding-bottom: 200px;
   padding-top: 200px;
   text-align: center;
 }
 
-.headerdecor {
+.hero-headerdecor {
   color: $white-text-color;
   font-weight: 900;
   font-size: 44px;
@@ -15,7 +15,7 @@
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-.overlay {
+.hero-overlay {
   max-width: 1600px;
   height: 600px;
   outline: 1px solid black;
