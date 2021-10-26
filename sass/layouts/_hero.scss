@@ -1,11 +1,11 @@
-.hero-bgcolorheader {
-  background-color: $dark-bgc;
+/*.hero-bgcolorheader {
+  /*background-color: $dark-bgc;
   padding-bottom: 200px;
   padding-top: 200px;
   text-align: center;
-}
+}*/
 
-.hero-headerdecor {
+.hero-overlay__title {
   color: $white-text-color;
   font-weight: 900;
   font-size: 44px;
@@ -17,10 +17,10 @@
 }
 .hero-overlay {
   max-width: 1600px;
-  height: 600px;
-  outline: 1px solid black;
-  margin-left: auto;
-  margin-right: auto;
+  /*height: 600px;
+  outline: 1px solid black;*/
+  /*margin-left: auto;
+  margin-right: auto;*/
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -30,4 +30,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-bottom: 200px;
+  padding-top: 200px;
+  text-align: center;
 }

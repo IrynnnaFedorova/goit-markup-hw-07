@@ -4,25 +4,17 @@
 @import "./base/common";
 @import "./base/container";
 @import "./base/section";
+
 @import "./components/logo";
 @import "./components/buttons";
 @import "./components/social-icons";
+@import "./components/modal";
+
 @import "./layouts/header";
 @import "./layouts/hero";
-
 @import "./layouts/characteristic";
-
 @import "./layouts/team";
-
 @import "./layouts/work-section";
-/*footer*/
 @import "./layouts/footer";
-/*portfolio*/
-
 @import "./layouts/portfolio";
-
 @import "./layouts/clients";
-
-@import "./components/buttons";
-
-@import "./components/modal";
