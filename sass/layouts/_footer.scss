@@ -69,20 +69,13 @@
   margin-top: 20px;
 }
 
-.footer-networks-list:not(:last-child) {
+.social-list:not(:last-child) {
   margin-right: 10px;
 }
 
 .social-icons-footer {
-  padding: 12px;
-  width: 44px;
-  height: 44px;
-  display: inline-block;
-  border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   fill: #ffffff;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   .&:hover,
   .&:focus {
