@@ -611,19 +611,19 @@ img {
   margin-bottom: 30px;
 }
 
-.characteristic .characteristic-item::before-item:nth-child(1)::before {
+.characteristic-item:nth-child(1)::before {
   background-image: url(../images/antenna.svg);
 }
 
-.characteristic .characteristic-item::before-item:nth-child(2)::before {
+.characteristic-item:nth-child(2)::before {
   background-image: url(../images/clock.svg);
 }
 
-.characteristic .characteristic-item::before-item:nth-child(3)::before {
+.characteristic-item:nth-child(3)::before {
   background-image: url(../images/diagram.svg);
 }
 
-.characteristic .characteristic-item::before-item:nth-child(4)::before {
+.characteristic-item:nth-child(4)::before {
   background-image: url(../images/astronaut.svg);
 }
 
@@ -974,13 +974,13 @@ img {
   overflow: hidden;
 }
 
-.product-link:hover.description,
-.product-link:focus.description {
+.product-link:hover .description,
+.product-link:focus .description {
   transform: translateY(0);
   opacity: 1;
 }
 
-.bgsproduct:hover.description {
+.bgsproduct:hover .description {
   transform: translateY(0);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
