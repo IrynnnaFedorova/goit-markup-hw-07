@@ -20,7 +20,7 @@
 .text {
   color: $title-text-color;
 }
-.characteristic .characteristic-item::before {
+.characteristic.characteristic-item::before {
   content: "";
   display: block;
   height: 120px;
